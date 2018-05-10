@@ -58,11 +58,7 @@
 # 
 # 
 # <div class="container">
-# {% for comment in comments %}
-#     <div class="row">
-#         {{ comment }}
-#     </div>
-# {% endfor %}
+# 
 #         <div class="row">
 #             Welcome to my Bitcoin Prediction Model
 #         </div>
@@ -74,12 +70,6 @@
 #         <div class="row">
 #             Then you need to use Google Trends to enter this week's "impression" of the word "bitcoin" (scale of 1 to 100)
 #         </div>
-# {% for comment in comments %}
-#     <div class="row">
-#         {{ comment }}
-#     </div>
-# {% endfor %}
-# 
 # 
 #         <div class="row">
 #             <form action="." method="POST">
@@ -103,6 +93,7 @@
 #             </form>
 # 
 #         </div>
+# 
 # </div><!-- /.container -->
 #     </body>
 # </html>
